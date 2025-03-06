@@ -1,0 +1,33 @@
+body{
+    background: url(https://cdn.pixabay.com/photo/2022/11/14/10/37/chinese-lanterns-7591296_1280.jpg);
+}
+section img{
+    height: 200px;
+}
+.carousel-slide {
+        width: auto;
+    }
+
+  
+.carousel-item img{
+    object-fit: contain;
+    height: 400px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header img{
+    height: 100px;
+    width: 100px;
+}
+#plats-pr, #desserts, #cocktails{
+    color: blanchedalmond;
+    border: solid, 2px,rgb(175, 171, 162);
+    border-radius: 10px;
+
+}
+footer{
+    border: solid, 2px,rgb(172, 131, 54);
+    border-radius: 10px;
+}
+ 
