@@ -47,9 +47,9 @@ bouton[3].addEventListener("click",()=>{
 console.log(bouton[4])
 
 // CREATION BOUTON ROUGE SUPPRESSION
-// PS : DEMANDER A GARY POURQUOI CA REVIENT EN TETE DE PAGE QUAND LE BOUTON ROUGE APPARAIT
 
-bouton[4].addEventListener("click",()=>{
+bouton[4].addEventListener("click",(event)=>{
+    event.preventDefault();
     let btn=document.createElement('button')
     btn.innerText="Supprimer?"
     btn.style.backgroundColor='red';
@@ -58,7 +58,8 @@ bouton[4].addEventListener("click",()=>{
             carte[3].remove()
          })
     })
-bouton[5].addEventListener("click",()=>{
+bouton[5].addEventListener("click",(event)=>{
+    event.preventDefault();
     let btn=document.createElement('button')
     btn.innerText="Supprimer?"
     btn.style.backgroundColor='red';
@@ -67,7 +68,8 @@ bouton[5].addEventListener("click",()=>{
             carte[4].remove()
          })
     })
-bouton[6].addEventListener("click",()=>{
+bouton[6].addEventListener("click",(event)=>{
+    event.preventDefault();
     let btn=document.createElement('button')
     btn.innerText="Supprimer?"
     btn.style.backgroundColor='red';
@@ -77,4 +79,3 @@ bouton[6].addEventListener("click",()=>{
          })
     })
 
-    
