@@ -25,11 +25,22 @@ carte1.forEach(carte => {
         carte.classList.add('bg-warning')
     })
 });
+// c un bz ce VS CODE "Document.addEventListener('DOMContentLoaded', () => {" pour etre sur que ca charge le DOM
 
+document.addEventListener('DOMContentLoaded', () => {
+    let inscription = document.querySelector(".nletter");
+    inscription.addEventListener('click', () => {
+        alert("Bienvenue! Inscription de votre email confirmé");
+    });
+});
 
-let newsletter=document.querySelector("newsletter")
-newsletter.addEventListener('click',()=>{
-    alert("Bienvenue"+" "+", vous etes bien inscrit")
+let bouton = document.querySelectorAll(".btn")
+bouton[0].addEventListener("click",()=>{
+    window.location.href="./pages/index-poulet.html"
 })
-
-
+bouton[1].addEventListener("click",()=>{
+    window.location.href="./pages/index-lasagne.html"
+})
+bouton[2].addEventListener("click",()=>{
+    window.location.href="./pages/index-bolo.html"
+})
