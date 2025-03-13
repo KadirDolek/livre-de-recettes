@@ -44,19 +44,37 @@ bouton[2].addEventListener("click",()=>{
 bouton[3].addEventListener("click",()=>{
     window.location.href="./pages/index-bolo.html"
 })
-console.log(bouton[2])
+console.log(bouton[4])
 
 // CREATION BOUTON ROUGE SUPPRESSION
+// PS : DEMANDER A GARY POURQUOI CA REVIENT EN TETE DE PAGE QUAND LE BOUTON ROUGE APPARAIT
 
-// bouton[4].addEventListener("click",()=>{
-//     let btn=document.createElement
-//     ('button')
-//     btn.innerText="Supprimer?"
-//     btn.style.backgroundColor='red'
-//     carte.appendChild(btn)
-//     btn.addEventListener('click',()=>{
-//         carte.forEach(carte => {
-//             carte.remove()
-//          })
-//     })
-// })
+bouton[4].addEventListener("click",()=>{
+    let btn=document.createElement('button')
+    btn.innerText="Supprimer?"
+    btn.style.backgroundColor='red';
+    carte[3].appendChild(btn);
+    btn.addEventListener('click',()=>{
+            carte[3].remove()
+         })
+    })
+bouton[5].addEventListener("click",()=>{
+    let btn=document.createElement('button')
+    btn.innerText="Supprimer?"
+    btn.style.backgroundColor='red';
+    carte[4].appendChild(btn);
+    btn.addEventListener('click',()=>{
+            carte[4].remove()
+         })
+    })
+bouton[6].addEventListener("click",()=>{
+    let btn=document.createElement('button')
+    btn.innerText="Supprimer?"
+    btn.style.backgroundColor='red';
+    carte[5].appendChild(btn);
+    btn.addEventListener('click',()=>{
+            carte[5].remove()
+         })
+    })
+
+    
