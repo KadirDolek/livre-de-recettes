@@ -33,14 +33,30 @@ document.addEventListener('DOMContentLoaded', () => {
         alert("Bienvenue! Inscription de votre email confirmé");
     });
 });
-
+// LIEN JS POUR HTML 
 let bouton = document.querySelectorAll(".btn")
-bouton[0].addEventListener("click",()=>{
+bouton[1].addEventListener("click",()=>{
     window.location.href="./pages/index-poulet.html"
 })
-bouton[1].addEventListener("click",()=>{
+bouton[2].addEventListener("click",()=>{
     window.location.href="./pages/index-lasagne.html"
 })
-bouton[2].addEventListener("click",()=>{
+bouton[3].addEventListener("click",()=>{
     window.location.href="./pages/index-bolo.html"
 })
+console.log(bouton[2])
+
+// CREATION BOUTON ROUGE SUPPRESSION
+
+// bouton[4].addEventListener("click",()=>{
+//     let btn=document.createElement
+//     ('button')
+//     btn.innerText="Supprimer?"
+//     btn.style.backgroundColor='red'
+//     carte.appendChild(btn)
+//     btn.addEventListener('click',()=>{
+//         carte.forEach(carte => {
+//             carte.remove()
+//          })
+//     })
+// })
