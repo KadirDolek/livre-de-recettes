@@ -36,3 +36,6 @@ footer{
     justify-content: center;
 }
 
+.d-flex{
+    flex-wrap: wrap;
+}

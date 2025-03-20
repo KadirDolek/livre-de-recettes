@@ -46,7 +46,7 @@ bouton[3].addEventListener("click",()=>{
 })
 console.log(bouton[4])
 
-// CREATION BOUTON ROUGE SUPPRESSION
+// CREATION BOUTON ROUGE SUPPRESSION  
 
 bouton[4].addEventListener("click",(event)=>{
     event.preventDefault();
