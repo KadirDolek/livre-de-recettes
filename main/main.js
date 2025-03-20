@@ -48,34 +48,34 @@ console.log(bouton[4])
 
 // CREATION BOUTON ROUGE SUPPRESSION  
 
-bouton[4].addEventListener("click",(event)=>{
-    event.preventDefault();
-    let btn=document.createElement('button')
-    btn.innerText="Supprimer?"
-    btn.style.backgroundColor='red';
-    carte[3].appendChild(btn);
-    btn.addEventListener('click',()=>{
-            carte[3].remove()
-         })
-    })
-bouton[5].addEventListener("click",(event)=>{
-    event.preventDefault();
-    let btn=document.createElement('button')
-    btn.innerText="Supprimer?"
-    btn.style.backgroundColor='red';
-    carte[4].appendChild(btn);
-    btn.addEventListener('click',()=>{
-            carte[4].remove()
-         })
-    })
-bouton[6].addEventListener("click",(event)=>{
-    event.preventDefault();
-    let btn=document.createElement('button')
-    btn.innerText="Supprimer?"
-    btn.style.backgroundColor='red';
-    carte[5].appendChild(btn);
-    btn.addEventListener('click',()=>{
-            carte[5].remove()
-         })
-    })
+// bouton[4].addEventListener("click",(event)=>{
+//     event.preventDefault();
+//     let btn=document.createElement('button')
+//     btn.innerText="Supprimer?"
+//     btn.style.backgroundColor='red';
+//     carte[3].appendChild(btn);
+//     btn.addEventListener('click',()=>{
+//             carte[3].remove()
+//          })
+//     })
+// bouton[5].addEventListener("click",(event)=>{
+//     event.preventDefault();
+//     let btn=document.createElement('button')
+//     btn.innerText="Supprimer?"
+//     btn.style.backgroundColor='red';
+//     carte[4].appendChild(btn);
+//     btn.addEventListener('click',()=>{
+//             carte[4].remove()
+//          })
+//     })
+// bouton[6].addEventListener("click",(event)=>{
+//     event.preventDefault();
+//     let btn=document.createElement('button')
+//     btn.innerText="Supprimer?"
+//     btn.style.backgroundColor='red';
+//     carte[5].appendChild(btn);
+//     btn.addEventListener('click',()=>{
+//             carte[5].remove()
+//          })
+//     })
 

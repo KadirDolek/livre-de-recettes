@@ -39,3 +39,10 @@ footer{
 .d-flex{
     flex-wrap: wrap;
 }
+.card-body{
+    transition: 2s;
+}
+.card-body:hover{
+    background-color: rgba(197, 29, 29, 0.5);
+    color: white;
+}
